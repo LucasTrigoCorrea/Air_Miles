@@ -14,7 +14,7 @@ section.media iframe {
 }
 
 section.media h3 {
-    color: var(--cor-principal);
+    color: var(--cor-branco);
     font-family: var(--bold);
     font-size: 2rem;
 }
