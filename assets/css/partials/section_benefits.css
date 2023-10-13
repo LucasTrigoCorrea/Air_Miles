@@ -4,10 +4,10 @@ section.benefits {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: var(--cor-fundo);
+    background: var(--cor-fundo-3);
   }
-  /* Titulo */
-  section.benefits .titulo {
+  /* title */
+  section.benefits .title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,16 +15,16 @@ section.benefits {
     width: 100%;
     padding: 50px 100px;
   }
-  section.benefits .titulo h2 {
+  section.benefits .title h2 {
     font-family: var(--bold);
     font-size: 3rem;
     line-height: 1;
     color: var(--cor-branco);
   }
-  section.benefits .titulo h2 span {
+  section.benefits .title h2 span {
     color: var(--cor-principal);
   }
-  section.benefits .titulo p {
+  section.benefits .title p {
     font-family: var(--regular);
     font-size: 1.5rem;
     color: var(--cor-branco);
@@ -54,7 +54,7 @@ section.benefits {
     padding: 20px;
   }
   section.benefits .itens .item.diferente {
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-fundo-3);
   }
   section.benefits .itens .item h3 {
     font-family: var(--bold);
@@ -73,22 +73,22 @@ section.benefits {
     line-height: 1.5;
     text-align: center;
   }
-  /* Responsivo */
+  /* Responsive */
   @media screen and (max-width: 1000px) {
     section.benefits {
       flex-direction: column;
     }
-    section.benefits .titulo {
+    section.benefits .title {
       width: 100%;
     }
-    section.benefits .titulo {
+    section.benefits .title {
       padding: 80px 30px;
     }
-    section.benefits .titulo h2 {
+    section.benefits .title h2 {
       font-size: 2rem;
       max-width: 400px;
     }
-    section.benefits .titulo p {
+    section.benefits .title p {
       max-width: 350px;
     }
     section.benefits .itens .item h3 {
