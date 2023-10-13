@@ -18,3 +18,11 @@ footer span {
     font-size: 1rem;
     opacity: 0.8;
 }
+
+  /*RESPONSIVE*/
+
+  @media screen and (max-width: 1000px) {
+    footer {
+        padding: 40px 20px;
+    }
+  }

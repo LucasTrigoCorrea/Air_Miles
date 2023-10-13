@@ -4,7 +4,7 @@ section.text {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding: 50px 20px;
     background-image: url(../../../files/images/bg-travel.jpg);
     background-repeat: no-repeat;
@@ -58,3 +58,40 @@ section.text .context span {
     justify-content: center;
 }
 
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1000px) {
+    section.text {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+    section.text .image {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 15px;
+    }
+    section.text .context {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 10px;
+    }
+    section.text .context h2 {
+        font-size: 1.5rem;
+        padding-bottom: 15px
+    }
+    section.text .context p {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+    
+    }
+    section.text .context span {
+        font-size: 1.5rem;
+    }
+}

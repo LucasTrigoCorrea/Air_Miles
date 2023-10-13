@@ -37,3 +37,16 @@ section.button a:hover {
         transform: scale(1.0);
       }
   }
+
+
+  /*RESPONSIVE*/
+
+  @media screen and (max-width: 1000px) {
+    section.button{
+      padding: 100px 20px;
+  }
+    section.button a {
+      font-size: 1.5rem;
+      padding: 15px 10px;
+  }
+  }
