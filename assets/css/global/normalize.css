@@ -21,12 +21,9 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: var(--cor-fundo-2);
 }
-body.light-mode body {
-  background-color: var(--cor-branco);
-}
 ::selection {
-  color: var(--cor-fundo);
-  background-color: var(--cor-principal);
+  color: var(--cor-fundo-3);
+  background-color: var(--cor-fundo-2);
 }
 a {
   background-color: transparent;

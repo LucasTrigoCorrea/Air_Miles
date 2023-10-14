@@ -74,7 +74,7 @@ section.benefits {
     text-align: center;
   }
   /* Responsive */
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 900px) {
     section.benefits {
       flex-direction: column;
     }
@@ -95,7 +95,7 @@ section.benefits {
       font-size: 1.5rem;
     }
     section.benefits .itens .item p {
-      font-size: 0.7rem;
+      font-size: 1rem;
       max-width: 160px;
     }
   }

@@ -25,4 +25,11 @@ footer span {
     footer {
         padding: 40px 20px;
     }
+    footer p {
+        font-size: 1rem;
+    }
+    
+    footer span {
+        font-size: 0.9rem;
+    }
   }
