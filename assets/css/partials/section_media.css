@@ -7,10 +7,15 @@ section.media {
 }
 
 section.media iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
+    height: 350px;
     border-radius: 15px;
     margin: 50px 0;
+    background-color: transparent;
 }
 
 section.media h3 {
@@ -21,7 +26,7 @@ section.media h3 {
 
 /*RESPONSIVE*/
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 999px){
     section.media {
         text-align: center;
     }
@@ -29,4 +34,11 @@ section.media h3 {
         font-size: 1.5rem;
         text-align: center;
     }
+}
+@media screen and (max-width: 399px){
+    section.media iframe {
+        height: 250px;
+        margin: 50px;
+    }
+
 }

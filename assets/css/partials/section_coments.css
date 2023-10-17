@@ -1,0 +1,32 @@
+section.coments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 60px;
+}
+
+section.coments h1 {
+    color: var(--cor-branco);
+    font-family: var(--bold);
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+section.coments .powr-comments {
+    width: 100%;
+}
+
+  /*RESPONSIVE*/
+
+  @media screen and (max-width: 1000px) {
+    section.coments {
+        padding: 20px;
+    }
+    section.coments h1 {
+        font-size: 2rem;
+    }
+  }
